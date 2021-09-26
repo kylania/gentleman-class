@@ -1,0 +1,39 @@
+{
+    "name": "gentleman-class",
+    "title": "Gentleman Class",
+    "description": "A module for the class, Gentleman.",
+    "version": "1.0.0",
+    "library": "false",
+    "manifestPlusVersion": "1.0.0",
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "0.8.9",
+    "authors": [
+        {
+            "name": "kylania",
+            "url": "https://github.com/kylania",
+            "discord": "kylania#3091"
+        }
+    ],
+    "packs": [
+        {
+            "name": "classes",
+            "label": "Gentleman Classes",
+            "path": "packs/classes.db",
+            "entity": "Item",
+            "module": "gentleman-class"
+          },
+          {
+            "name": "classfeatures",
+            "label": "Gentleman Class Features",
+            "path": "packs/classfeatures.db",
+            "entity": "Item",
+            "module": "gentleman-class"
+          }           
+    ],
+    "esmodules": [
+        "/scripts/module.js"
+    ],
+    "url": "https://github.com/kylania/gentleman-class",
+    "manifest": "https://github.com/kylania/gentleman-class/releases/latest/download/module.json",
+    "download": "https://github.com/kylania/gentleman-class/releases/download/1.0.0/module.zip"
+}
