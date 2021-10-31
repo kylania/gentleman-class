@@ -4,12 +4,12 @@ Hooks.on("ready", () => {
     // the syntax is: Compendium.{pack_key}.{pack_name}.{item.id}
     // for items held in the Custom Classes pack use "Compendium.custom-classes.classfeatures.ID_here"
 
-    // Name of our custom class "gentleman"
-    CONFIG.DND5E.classFeatures.gentleman = {
+    // Name of our custom class "gentleman".  Case insenistive and "-" will be replaced with a space.  the-gentleman would be "The Gentleman" class.
+    CONFIG.DND5E.classFeatures.gentleman = {  // Class name "Gentleman"
         // We'll define the subclasses here.
         "subclasses": {
-            "dapper": {
-                // The label is what the subclass is called on the Class Detail subclass field.  
+            // This is the name you put in the Subclass field.  "-" will be replaced with a space. So "my-class": { would be "My Class" in the sheet.  Case insensitive.
+            "dapper": { // Sublass name "Dapper"
                 "label": "Dapper",
                 "source": "Custom Class",
                 "features": {
